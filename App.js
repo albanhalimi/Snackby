@@ -1,6 +1,4 @@
 
-import './index.css';
-
 export default function App() {
   return (
     <div className="min-h-screen bg-white text-gray-900 p-6">
@@ -17,8 +15,8 @@ export default function App() {
             für unterwegs, zum Teilen oder für den Social-Media-Moment. Schnell, sättigend und trendy.
           </p>
         </div>
-        <div className="rounded-2xl shadow-md overflow-hidden">
-          <img src="/burrito-chips.jpg" alt="Burrito in Chips Verpackung" className="w-full h-auto" />
+        <div className="rounded-2xl shadow-md overflow-hidden bg-gray-100 flex items-center justify-center h-48">
+          <span className="text-gray-400">[Bildplatzhalter]</span>
         </div>
       </section>
 
